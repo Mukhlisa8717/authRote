@@ -1,0 +1,38 @@
+.brand{
+    margin: 73px 0;
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        &-item{
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            border-radius: 22px;
+            background: rgb(246, 246, 246);
+            padding: 45px 25px;
+            max-width: 354px;
+            &-content{
+                display: flex;
+                flex-direction: column;
+                gap: 9px;
+                h2{
+                    color: rgb(30, 29, 29);
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 44px;
+                    text-align: left;
+                }
+                p{
+                    color: rgb(139, 142, 153);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19px;
+                    text-align: left;
+                    
+                }
+            }
+        }
+    }
+}

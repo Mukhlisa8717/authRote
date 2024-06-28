@@ -1,0 +1,60 @@
+.hero{
+    background: black;
+    padding-top: 103px;
+    height: 877px;
+    &__cont{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-left{
+            display: flex;
+            flex-direction: column;
+            max-width: 457px;
+            gap: 20px;
+            h1{
+                color: rgb(255, 255, 255);
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 125.5%;
+                text-align: left;
+            }
+            p{
+                color: rgb(139, 142, 153);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 125.5%;
+                text-align: left;
+            }
+            &-search{
+                display: flex;
+                background: #fff;
+                padding: 8px;
+                border-radius: 15px;
+                gap: 16px;
+                align-items: center;
+                svg{
+                    color: rgb(56, 88, 214);
+                    margin-left: 12px;
+                }
+                input{
+                    border: none;
+                    outline: none;
+                    background: none;
+                    width: 80%;
+                }
+                button{
+                    border-radius: 9px;
+                    background: rgb(56, 88, 214);
+                    cursor: pointer;
+                    border: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 125.5%;
+                    text-align: center;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}

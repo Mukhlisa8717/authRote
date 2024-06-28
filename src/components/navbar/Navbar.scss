@@ -1,0 +1,58 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: black;
+    z-index: 100;
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        padding: 23px 0;
+        a{
+            text-decoration: none;
+        }
+        &__logo{
+            display: flex;
+            align-items: center;
+            h4{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+        &__list{
+            display: flex;
+            align-items: center;
+            gap: 27px;
+            list-style: none;
+            a{
+                color: #8B8E99;
+                select {
+                    background: none;
+                    color: #8B8E99;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                }
+            }
+        }
+        &__menu{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            a{
+                display: flex;
+                color: white;
+            }
+        }
+    }
+}
+
+.header.shrink {
+    background: black;
+}

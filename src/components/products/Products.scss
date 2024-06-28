@@ -1,0 +1,26 @@
+.product__image{
+    width: 100%;
+}
+
+.product__title{
+    color: rgb(30, 29, 29);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+
+.product__old-price{
+    color: rgb(139, 142, 153);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120.5%;
+    text-decoration: line-through;
+}
+
+.product__price{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120.5%;
+}
